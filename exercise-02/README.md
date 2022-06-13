@@ -1,4 +1,4 @@
-  # Assignment-02
+  # Exercise-02
   ## Jamie McNally
 
   I am a paragraph!
