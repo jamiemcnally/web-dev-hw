@@ -12,7 +12,7 @@
     <title>Exercise 05</title>
     <style>
       table, td {border: 1px solid black}
-      table, td {text-align: center;}
+      table, th, td {text-align: center;}
     </style>
   </head>
 
@@ -69,5 +69,28 @@
           <td>Noon - 9:00 p.m.</td>
         </tr>
       </table>
+      <br>
+
+      <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+
+      <p>What is your favorite boba flavor?</p>
+
+        <input type="radio" id="Matcha Strawberry" name="fav_boba" value="Matcha Strawberry">
+        <label for="Matcha Strawberry">Matcha Strawberry</label><br>
+        <input type="radio" id="Thai Milk Tea" name="fav_boba" value="Thai Milk Tea">
+        <label for="Thai Milk Tea">Thai Milk Tea</label><br>
+        <input type="radio" id="Chai Tea" name="fav_language" value="Chai Tea">
+        <label for="Chai Tea">Chai Tea</label>
+
+      <p>Comments or Concerns:<br></p>
+        <textarea name="comments" id="textarea">
+        </textarea><br>
+
+        <p><input type="submit" name="submit"</p>
+      </form>
   </body>
 </html>
