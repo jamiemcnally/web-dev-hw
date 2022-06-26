@@ -1,5 +1,5 @@
-h1 {
-  color: red;
+h2 {
+  color: white;
 }
 
 .square {
@@ -10,10 +10,10 @@ h1 {
   background-color: #70002e;
 }
 
-#red {
-  background-color: #red;
+#sunsetred {
+  background-color: #F9423A;
 }
 
-#blue {
-  background-color: #blue;
+#copperclimb {
+  background-color: #ED8B00;
 }
