@@ -1,0 +1,73 @@
+  body {
+    margin: 0;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+    }
+
+  /* Navigation Style */
+  .navigation {
+    background-color: yellow;
+    width: 300px;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .navigation a {
+    color: black;
+    text-decoration: none;
+  }
+
+  /* Logo and Title */
+  .site-info {
+    margin: 2em auto;
+
+    text-align: center;
+    font-size: 200%;
+  }
+
+  .logo {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+
+    margin: 0 auto 1em;
+
+    border: 5px solid yellow;
+    border-radius: 100%;
+
+    line-height: 150px;
+    color: yellow;
+    text-transform: uppercase;
+  }
+  .logo:hover {
+    border-color: green;
+  }
+
+  /* Site Links */
+  .site-links {
+    margin: 0 1em;
+  }
+  .site-links a {
+    display: block;
+    margin: 1em;
+  }
+  .site-links a:hover, .site-links .active {
+    margin-left: 2.5em;
+  }
+
+  /* Main Content */
+  .main {
+    background-color: white;
+    overflow: auto;
+
+    margin-left: 300px;
+    padding: 1em;
+  }
+
+  .banner {
+    width: 100%;
+    height: auto;
+  }
